@@ -58,7 +58,7 @@ def generate_test_cmds(abs_path):
         line_num = 1
         with open(result_file, 'r') as f:
             lines = f.readlines()
-            for i in range(0, len(lines), 2):
+            for i in range(0, len(lines), 2):# need to debug here
                 line1 = lines[i].strip()
                 line2 = lines[i+1].strip()
 
